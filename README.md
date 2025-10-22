@@ -1,2 +1,17 @@
-# Marian-Marinov-employees
-An application that identifies the pair of employees who have worked together on common projects for the longest period of time
+How to Use:
+
+Compile:
+
+javac EmployeePairAnalyzer.java
+
+Run:
+
+java EmployeePairAnalyzer data.csv
+```
+
+## Example CSV File (data.csv):
+```
+EmpID, ProjectID, DateFrom, DateTo
+143, 12, 2013-11-01, 2014-01-05
+218, 10, 2012-05-16, NULL
+143, 10, 2009-01-01, 2011-04-27
